@@ -1,3 +1,12 @@
 [submodule "_vim/bundle/vim-coffee-script"]
 	path = _vim/bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "_vim/bundle/pep8"]
+	path = _vim/bundle/pep8
+	url = https://github.com/vim-scripts/pep8.git
+[submodule "_vim/bundle/pyflakes"]
+	path = _vim/bundle/pyflakes
+	url = https://github.com/mitechie/pyflakes-pathogen.git
+[submodule "_vim/bundle/puppet-syntax"]
+	path = _vim/bundle/puppet-syntax
+	url = git://github.com/puppetlabs/puppet-syntax-vim.git
