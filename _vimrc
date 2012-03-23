@@ -42,6 +42,3 @@ autocmd InsertEnter * set cursorline
 "Highlight cursor
 highlight CursorLine ctermbg=8 cterm=NONE
 
-" Pep8
-let g:pep8_map='<leader>8'
-
