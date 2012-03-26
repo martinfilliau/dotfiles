@@ -1,0 +1,8 @@
+= Dotfiles =
+
+== Vim ==
+
+:SyntasticCheck requires pyflakes, flake8 and pylint
+
+
+
