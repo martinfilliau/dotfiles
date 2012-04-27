@@ -11,9 +11,7 @@ Bundle 'puppetlabs/puppet-syntax-vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-fugitive'
-
-"call pathogen#runtime_append_all_bundles()
-"call pathogen#helptags()
+Bundle 'SuperTab'
 
 filetype on
 
