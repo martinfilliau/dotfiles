@@ -1,12 +1,24 @@
 filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+set nocompatible
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Bundles managed by Vundle
+Bundle 'gmarik/vundle'
+
+Bundle 'puppetlabs/puppet-syntax-vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'tpope/vim-fugitive'
+
+"call pathogen#runtime_append_all_bundles()
+"call pathogen#helptags()
 
 filetype on
 
 color torte
 
-set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
