@@ -2,4 +2,5 @@ alias l="ls -alh"
 alias ..="cd .."
 alias ...="cd ../.."
 alias v="vim"
-
+alias g="git"
+alias p="cd ~/Documents/Projects"
