@@ -1,0 +1,7 @@
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi
+
+source /usr/local/bin/virtualenvwrapper.sh
+
+[ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2)" scp sftp ssh
