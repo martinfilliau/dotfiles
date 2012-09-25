@@ -1,7 +1,10 @@
 [user]
-    name = Martin Filliau
+	name = Martin Filliau
     email = martin@filliau.com
 [github]
         user = martinfilliau
 [alias]
     l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    s = status
+    a = add
+    c = commit -m
