@@ -8,3 +8,29 @@
     s = status
     a = add
     c = commit -m
+    # Switch to a branch, creating it if necessary
+    go = checkout -B
+    # Show verbose output about tags, branches or remotes
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+
+[color]
+	# Use colors in Git commands that are capable of colored output when outputting to the terminal
+	ui = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[merge]
+	# Include summaries of merged commits in newly created merge commit messages
+	log = true
