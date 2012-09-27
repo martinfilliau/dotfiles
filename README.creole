@@ -4,5 +4,6 @@
 
 :SyntasticCheck requires pyflakes, flake8 and pylint
 
-
+Sources:
+* https://github.com/mathiasbynens/dotfiles
 
