@@ -2,6 +2,11 @@ if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 fi
 
+if [ -f ~/.bash_prompt ]; then
+    source ~/.bash_prompt
+fi
+
 source /usr/local/bin/virtualenvwrapper.sh
 
+# Autocomplete SSH
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2)" scp sftp ssh
